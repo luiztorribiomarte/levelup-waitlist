@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Level Up — Waitlist</title>
+<meta name="robots" content="noindex">
+<style>
+  body{margin:0;background:#F6F4EF;color:#182230;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:24px}
+  a{color:#2E6BE6;font-weight:700}
+</style>
+<script>
+  // This page is retired (2026-11-13). There is ONE waitlist page now:
+  // the Beehiiv subscribe page. Send everyone there, keeping the channel
+  // tag as a UTM source so Beehiiv still attributes the signup.
+  (function () {
+    var src = new URLSearchParams(window.location.search).get("src") || "github-page";
+    window.location.replace("https://projectlevelup.beehiiv.com/subscribe?utm_source=" + encodeURIComponent(src));
+  })();
+</script>
+</head>
+<body>
+<p>Taking you to the waitlist… <a href="https://projectlevelup.beehiiv.com/subscribe">Tap here if it doesn't open.</a></p>
+</body>
+</html>
